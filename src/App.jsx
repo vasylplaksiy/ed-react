@@ -1,19 +1,10 @@
-import Header from './components/Header/Header.jsx';
-import CoreConcepts from './components/CoreConcepts/CoreConcepts.jsx';
-import Examples from './components/Examples/Examples.jsx';
-import './index.css';
 
 function App() {
-    return (
-        <>
-            <Header />
-            <main>
-                <h2>Time to get started!</h2>
-                <CoreConcepts />
-                <Examples />
-            </main>
-        </>
-    );
+  
+
+  return (
+    <h1>React Tic-Tac-Toe</h1>
+  )
 }
 
-export default App;
+export default App
